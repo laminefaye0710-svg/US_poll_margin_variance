@@ -41,7 +41,8 @@ Positive = Clinton lead. Negative = Trump lead. Units = FiveThirtyEight-adjusted
 
 ### Viz 1 — Weekly SD Over Time: National vs State Polls
 
-![Viz 1](output/figures/task3_viz1_weekly_sd_over_time.png)
+<img width="1800" height="1100" alt="Viz1_weekly_sd_over_time" src="https://github.com/user-attachments/assets/dda4211a-4a7a-4f41-876b-b3f74dc4c771" />
+
 
 Computes the **standard deviation of adjusted margins** within each calendar week, separately for national and state polls. Point size encodes the number of polls that week; a LOESS smoother with 95% CI shows the trend.
 
@@ -51,7 +52,8 @@ A rising SD means pollsters disagreed more; a falling SD means convergence. The 
 
 ### Viz 2 — Mean ± 1 SD Corridor (14-Day Rolling Window)
 
-![Viz 2](output/figures/task3_viz2_margin_corridor.png)
+<img width="1800" height="1100" alt="Viz2_margin_corridor" src="https://github.com/user-attachments/assets/31ab1e26-735b-4ccb-896b-fb023f6bbce5" />
+
 
 For every poll date, all polls from the **preceding 14 days** are pooled to compute a rolling mean and rolling SD. The shaded ribbon spans mean ± 1 SD — its width is variance made directly visible.
 
@@ -61,7 +63,7 @@ The red dashed line marks zero (the Trump threshold). A ribbon whose lower bound
 
 ### Viz 3 — Variance by Survey Population: LV vs RV
 
-![Viz 3](output/figures/task3_viz3_sd_by_population.png)
+<img width="1800" height="1800" alt="Viz3_sd_by_population" src="https://github.com/user-attachments/assets/3e16ace7-d1a4-433b-8d8b-2e46ea57f309" />
 
 Splits the weekly SD by survey population — **Likely Voters (LV)** vs **Registered Voters (RV)** — to test whether variance evolved differently depending on the sampling frame. Panels share the y-axis so magnitudes are directly comparable.
 
