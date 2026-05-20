@@ -1,7 +1,5 @@
 # 2016 U.S. Election Polling — Margin Variance Over Time
 
-**STA4320 / MAT5314X — Techniques of Data Analysis | Module 1 Project, Task 3**
-
 This repository extends the analysis from [nmaccabe/polling-bias-2016-us-election](https://github.com/nmaccabe/polling-bias-2016-us-election) by addressing the central question:
 
 > **How did the variance of polling margins evolve across the 2016 U.S. presidential campaign?**
